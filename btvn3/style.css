@@ -1,0 +1,38 @@
+.tweets{
+    background: #56ffff;
+    width: 350px;
+    height: 17cm;
+    float: left;
+}
+.tweets p{
+    padding: 1cm ;
+    color:white;
+}
+.replies{
+    float:left;
+    background: yellow;
+    width: 350px;
+    height: 17cm;
+}
+.replies p{
+    padding: 1cm;
+    color:white;
+}
+.search{
+    background: #cccccc;
+    width: 350px;
+    height: 17cm;
+    float: left;
+}
+.search p{
+    padding: 1cm;
+    color:white;
+}
+.messages{
+    background: #56ffff;
+    height: 17cm;
+}
+.messages p{
+    padding: 1cm;
+    color:white;
+}
