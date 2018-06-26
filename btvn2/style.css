@@ -1,0 +1,50 @@
+.header{
+    background: yellow;
+    height: 100px; ; 
+}
+.header p{
+   padding: 1cm;
+   color:black;
+}
+.nav{
+    background: yellow;
+     height: 380px;
+     width: 4cm;
+     float: left;
+     margin: 10px 10px 10px 0;
+}
+.nav p{
+    color:black;
+    text-align: center;
+    padding: 1cm;
+}
+.article{
+    background: yellow;
+    float: left;
+    height:380px;
+    width: 800px;
+    margin: 10px;
+}
+.article p{
+    color:black;
+    padding: 1cm;
+}
+.ads{
+    background: yellow;
+    float: right;
+    width: 8.5cm;
+    height: 380px;
+    margin:10px 0 10px 20px;
+}
+.ads p{
+    color:black;
+    padding: 1cm;
+}
+.footer{
+    background: yellow;
+    margin-top: 10.5cm;
+    height: 100px;
+}
+.footer p{
+    padding: 1cm;
+}
