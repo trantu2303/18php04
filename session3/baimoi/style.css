@@ -1,0 +1,30 @@
+*{
+  background: black;
+}
+.doan1{
+    text-align: justify;
+    padding: 10px;
+    font-family: newfont;
+    font-size: 30px;
+    color:blue;
+    text-indent: 20px;
+}
+@font-face{
+    font-family: newfont;
+    src: url(Achafsex.ttf);
+}
+.doan2{
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: newfont;
+    color:red;
+    font-size: 30px;
+    text-indent: 20px;
+}
+.doan3{
+    text-align: justify;
+    text-indent: 20px;
+    color:yellow;
+    font-size: 30px
+
+}

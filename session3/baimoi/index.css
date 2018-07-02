@@ -1,0 +1,24 @@
+@font-face{
+    font-family: newfont;
+    src: url(Achafsex.ttf);
+}
+p{
+    
+font-family: newfont;
+    font-size: 30px;
+    font-weight: bold ; 
+    text-align: justify;
+    text-indent: 20px;
+    text-transform: uppercase;
+}
+h2{
+    text-decoration: line-through;
+    color:red;
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 4px 4px 9px red;
+}
