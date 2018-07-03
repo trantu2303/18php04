@@ -1,0 +1,119 @@
+*{
+    padding:0px;
+    margin: 2px;
+}
+header{
+    background: #333333;
+    color:#e5e5e5;
+    height: 50px;
+    padding: 10px;
+}
+.dulich{
+    float:left;
+   margin: 10px
+}
+.khachsan{
+    float: left;
+    margin: 10px;
+}
+.vanchuyen{
+    float: left;
+    margin: 10px
+}
+.tintuc{
+    margin: 10px;
+}
+.travel{
+    background: #e5e5e5;
+    height: 80px;
+    color: #56aaff;
+}
+.travel .sdt{
+  
+    margin-bottom: 40px;
+    text-align: right;
+    margin-right:20px; 
+    color: #333333;
+}
+.body{
+    height:200px;
+    float:center;
+}
+.body .trong{
+   float: left;
+   margin: 50px;
+   width: 200px;
+   height: 100px;
+   background: white;
+   text-align: center;
+   padding: 10px;
+   border: 2px solid #56aaff;
+   
+}
+.body .ngoai{
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    background:white;
+    border: 2px solid #ff007f;
+}
+.body .trai{
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    background:white;
+    border: 2px solid #ffff56;
+}
+.body .phai{
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    background:white;
+    border: 2px solid #aaff56;
+}
+.danang .a{
+    float: right;
+    margin-right:520px; 
+    font-size: 40px;
+}
+.danang .b{
+    text-align: justify;
+    background: white;
+    float: right;
+    height: 100px;
+    width: 800px;
+    margin-top:-250px; 
+    font-family: newfont;
+    font-size: 36px;
+}
+@font-face{
+    font-family: newfont;
+    src: url(font/MissFajardose-Regular.ttf)
+}
+.danang .c{
+    float: right;
+    margin-right:520px; 
+    font-size: 40px;
+}
+.danang .d{
+    text-align: justify;
+    background: white;
+    float: right;
+    height: 100px;
+    width: 800px;
+    margin-top:-250px; 
+    font-size: 36px;
+}
+footer{
+    background: #333333;
+    border-top:2px solid #00ff00; 
+}
