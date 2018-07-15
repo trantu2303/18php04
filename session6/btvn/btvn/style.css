@@ -1,0 +1,185 @@
+header{
+    width: 100%;
+    height: 150px;
+    background: #007fff; 
+} 
+.broand{
+    float: left;
+    height: 50px;
+    width: 25%;
+    background: #00ffff;
+    margin-right:5px; 
+}
+.nov{
+    float: left;
+    height: 50px;
+    width: 49%;
+    background: #00ffff;
+}
+.tools{
+    float: right;
+    height: 50px;
+    width: 25%;
+    background: #00ffff; 
+}
+.abc{
+    height: 200px;
+    background: #007fff;
+    width: 70%;
+    margin-top: 10px;
+    float: left;
+}
+.ad{
+    width: 28%;
+    background: #00ffff;
+    float: right;
+    margin-top:10px;
+    height: 200px; 
+  }
+  .efg{
+    height: 200px;
+    background: #007fff;
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+  }
+  .tu{
+    width: 28%;
+    background: #00ffff;
+    float: right;
+    margin-top:10px;
+    height: 200px; 
+    margin-top: -5px;
+  }
+  .body{
+    width: 100%;
+    height: 20px;
+    background: #00ffff;
+    margin-top:0px; 
+  }
+  .sidebar{
+      width: 100%;
+      height: 20px;
+      background: #007fff;
+      margin-top:0px; 
+  }
+  .footer{
+      width: 100%;
+      height: 100px;
+      background: #007fff;
+      margin-top:430px; 
+  }
+.feoture{
+    width: 40%;
+    height: 100px;
+    background: #00ffff;
+    float: left;
+    margin-top:0px; 
+    margin-right:10px; 
+    text-align: center;
+    line-height: 50px;
+}
+.action{
+    width: 57%;
+    height: 100px;
+    background: #00ffff; 
+    margin-top:0px; 
+    margin-left: 10px;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+}
+.acticle{
+    width: 40%;
+    height: 100px;
+    background: #00ffff;
+    float: left;
+    margin-top:0px; 
+    margin-right:10px; 
+    text-align: center;
+    line-height: 50px;
+}
+.liting{
+    width: 57%;
+    height: 100px;
+    background: #00ffff; 
+    margin-top:0px; 
+    margin-left: 10px;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+}
+.sidebarr{
+    width: 100%;
+    height: 100px;
+    background: #007fff;
+}
+@media screen and (max-width:768px){
+    .abc{
+        width: 100%;
+    }
+    .feoture{
+        width: 100%;
+        margin-top:0px; 
+        height: 50px;
+    }
+    .action{
+        margin-top:0px;
+        width: 100%; 
+        height: 50px;
+    }
+    .liting{
+        margin-top:0px;
+        width: 55%; 
+    }
+    
+    .footer{
+        margin-top:640px; 
+    }
+    .tu{
+        width: 100%;
+    }
+}
+@media screen and (max-width:468px){
+.broand{
+    width: 100%;
+    height: 50px;
+    margin-top:0px; 
+}
+.nov{
+    width: 49%;
+    height: 30px;
+    margin-top: 0px;
+}
+.tools{
+    width: 49%;
+    height: 30px;
+    margin-top: 0px;
+}
+.ad{
+    width: 100%;
+    height: 50px;
+}
+.efg{
+    width: 100%;
+    height: 200px;
+    margin-top:0px;
+    margin-bottom:20px;  
+}
+.acticle{
+    height: 50px;
+    width: 100%;
+    margin-top:0px; 
+}
+.liting{
+    height: 50px;
+    width: 100%;
+    margin-top:0px; 
+}
+.tu{
+    display: none;
+}
+.footer{
+    margin-top:450px; 
+}
+}

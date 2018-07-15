@@ -1,0 +1,144 @@
+
+.logo{
+    width: 400px;
+    height: 100px;
+    background: red;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+.slogan{
+    float: left;
+    height: 100px;
+    background:yellow;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+.slider{
+    height: 200px;
+    background: aqua;
+    text-align: center;
+    line-height: 100px;
+}
+.novvsd1{
+  float: left;
+  height: 100px;
+  width: 370px;
+  background: blanchedalmond;
+  text-align: center;
+  line-height: 100px;
+
+}
+.novvsd2{
+    height: 100px;
+    width: 380px;
+    background: chocolate;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+
+}
+.novvsd3{
+    float: left;
+    height: 100px;
+    width: 600px;
+    background: wheat;
+    text-align: center;
+    line-height: 100px;
+
+}
+.ads1{
+    height: 50px;
+    width: 750px;
+    background: magenta;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+
+}
+.ads2{
+  float: left;
+  width: 600px;
+  height: 50px;
+  background: skyblue;
+  text-align: center;
+  line-height: 50px;
+
+}
+.content{
+    height: 300px;
+    background: red;
+    text-align: center;
+    line-height: 100px;
+}
+.foter1{ 
+  background: teal;
+  width: 50%;
+  height: 130px;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+}
+.foter2{
+    width: 50%;
+    height: 130px;
+    background: gray;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+@media screen and (max-width:768px){
+   .logo{
+       width: 50%;
+   }
+   .novvsd1{
+       width: 50%;
+   }
+   .novvsd2{
+       width: 50%;
+   }
+   .novvsd3{
+       width: 100%;
+   }
+   .ads1{
+       width: 50%;
+   }
+   .ads2{
+       width: 50%;
+   }
+   .slogan{
+       width: 100%;
+   }
+}
+@media screen and (max-width : 480px){
+    .logo{
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+        height: 300px;;
+    }
+    .novvsd1{
+        width: 100%;
+    }
+    .novvsd2{
+        width: 100%;
+    }
+    .ads1{
+        width: 100%;
+    }
+    .ads2{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        height: 500px;
+    }
+    .foter1{
+        width: 100%;
+    }
+    .foter2{
+        width: 100%;
+    }
+}

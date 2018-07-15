@@ -1,0 +1,19 @@
+table{
+    width: 600px;
+    border-collapse: collapse;
+}
+table,tr,td,th{
+    border: 1px solid black;
+}
+thead{
+    background-color:red; 
+}
+table tr th :ntn-child(1){
+    font-weight: bold;
+}
+tr:nth-child(odd){
+    background: gold;
+}
+/* :nth-child(old) : lẻ
+   :nth-child(even): chẵn
+   */
