@@ -1,0 +1,49 @@
+header{
+    width: 100%;
+    height: 100px;
+    background: white;
+    text-align: center;
+    border-top:5px solid red; 
+    border-bottom:1px solid black;
+}
+img{
+    width: 80px;
+    height: 80px;
+  float: right;
+  margin-top: -50px;
+  margin-right:450px; 
+}
+header  p{
+   font-size: 20px;    
+   margin-top: 20px;
+   color: red;
+   margin-left:-20px; 
+}
+.dangki{
+    width: 760px;
+    min-height: 450px;
+    margin: 50px auto 45px;
+    padding-bottom: 100px;
+    border: 1px solid #e3e1dc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+}
+input{
+    width: 395px;
+    height: 40px;
+}
+.a input{
+    background: red;
+    color: #e3e1dc;
+}
+.b{
+    margin-left:-230px; 
+}
+.c input{
+    height: 20px;
+    width: 20px;
+    margin-left:-150px; 
+}
+
+

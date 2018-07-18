@@ -1,35 +1,35 @@
-*{
-    padding:0px;
-    margin: 2px;
-}
+
 header{
     background: #333333;
     color:#e5e5e5;
-    height: 50px;
-    padding: 10px;
+    height: 100px;
+    width: 100%;
 }
 .dulich{
     float:left;
-   margin: 10px
+    line-height: 25px;
+    margin-right:10px; 
 }
 .khachsan{
     float: left;
-    margin: 10px;
+    line-height: 25px;
+    margin-right:10px; 
 }
 .vanchuyen{
     float: left;
-    margin: 10px
+    line-height: 25px;
+    margin-right:10px; 
 }
 .tintuc{
-    margin: 10px;
+    line-height: 58px;
 }
 .travel{
     background: #e5e5e5;
-    height: 80px;
+    height: 100px;
     color: #56aaff;
+    width: 100%;
 }
 .travel .sdt{
-  
     margin-bottom: 40px;
     text-align: right;
     margin-right:20px; 
@@ -84,6 +84,7 @@ header{
     float: right;
     margin-right:520px; 
     font-size: 40px;
+    margin-top:0px; 
 }
 .danang .b{
     text-align: justify;
@@ -91,9 +92,9 @@ header{
     float: right;
     height: 100px;
     width: 800px;
-    margin-top:-250px; 
     font-family: newfont;
     font-size: 36px;
+    margin-top:-250px; 
 }
 @font-face{
     font-family: newfont;
@@ -103,6 +104,7 @@ header{
     float: right;
     margin-right:520px; 
     font-size: 40px;
+    margin-bottom:100px; 
 }
 .danang .d{
     text-align: justify;
@@ -116,4 +118,26 @@ header{
 footer{
     background: #333333;
     border-top:2px solid #00ff00; 
+}
+table{
+    width: 600px;
+    border-collapse: collapse;
+    
+}
+table,tbody,tr,td,th{
+    border: 1px solid black;
+    text-align: center;
+}
+thead{
+    background: yellow;
+}
+.dangki{
+    text-align: right;
+    color:white;
+    margin-right:50px; 
+}
+@media screen and (max-width:1024){
+    header{
+        height: 400px;
+    }
 }
