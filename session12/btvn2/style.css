@@ -1,0 +1,23 @@
+#ronaldinho{
+    float: right;
+    top: 0;
+	right: 0;
+	position: absolute;
+
+}
+#zidame{
+    float: left;
+    top: 0;
+	left: 0;
+    position: absolute;
+}
+#start{
+    margin: 200px;
+} 
+span{  
+	display: none;
+    position: absolute;  
+}
+.hoa{
+    margin-left: 300px;
+}

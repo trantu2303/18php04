@@ -1,0 +1,106 @@
+<html>
+        <head>
+            <meta charset="utf8">
+            <title>Khách Sạn</title>
+            <link type="text/css" rel="stylesheet" href="css/style.css">
+            <link type="text/css" rel="stylesheet" href="css/style1.css">
+            <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        </head>
+        <body>
+        <header>
+            <img width="179" height="42" src="https://www.luxstay.com/assets/v2/images/logo.png?v=147660" alt="Luxstay" class="img-responsive">
+            <div class="phone">
+                <p class="phone-number"><a href="tel:123456" >Support 123456(free)</a></p>
+            </div>
+            <div class="registration">
+                <p class="sign-up"> Sign Up</p>
+                <p class="log-in">Log In</p>
+            </div>
+        </header>  
+        <div class="menu">
+            <ul>
+                <li><a href=#>Da Nang</a>
+                    <ul class="danang">
+                            <li><a href=#>Cau Rong</a></li>
+                            <li><a href=#>Cau Tran Thi Li</a></li>
+                            <li><a href=#>Ca Chep Hoa Rong</a></li>
+                    </ul>
+                </li>              
+                <li><a href=#>Ho Chi Minh</a> </li>
+                <li><a href=#>Ha Noi</a></li>
+                <li><a href=#>Hoi An</a> </li>
+                <li><a href=#>Sa Pa</a></li>
+                <li><a href=#>Tam Dao</a></li>
+                <li><a href=#>Phan Thiet</a></li>
+                <li><a href=#>Vung Tau</a></li>
+                <li><a href=#>Nha Trang</a></li>
+                <li><a href=#>Quy Nhon</a></li>                   
+            </ul>
+        </div>
+        <div class="order">
+            <input type="text"  value="Check In"  id="checkin">
+            <input type="text"  value="Ckeck Out"  id="checkout">
+        </div>
+        <div class="video">
+        <p><b>Giới Thiệu Khách Sạn</b></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fbYwSQKideE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="wrapper">
+            <h1>Bang Dang Ki</h1>
+        <div id="registration">
+          <p>Ho Va Ten:<input type="text" value="" id="ten"></p>
+          <span id='1'></span>
+          <p>SDT:   <input type="text" value="" id="sdt"></p>
+          <span id='2'></span>
+          <p>DiaChi:  <input type="text" value="" id="diachi"></p>
+          <span id='3'></span>
+          <p>Email: <input type="text" value="" id="email"></p>
+          <span id='4'></span>
+          <p>Mat Khau: <input type="password" value="" id="password"></p>
+          <span id='5'></span>
+        </div>
+        <span>
+            <input type="submit" value="DangKi" id="onclick" onclick="sumtotal();">
+        </span>
+        </div>
+
+        <div class="slideshow-container">
+            <h2>Slide</h2>
+            <div class="mySlides fade">
+              <img src="img/1.jpg" style="width:100%">
+              <div class="text">Nội dung caption của slide đầu tiên!</div>
+            </div>
+           
+            <div class="mySlides fade">
+              <img src="img/2.jpg" style="width:100%">
+              <div class="text">Nội dung caption của slide thứ 2!</div>
+            </div>
+           
+            <div class="mySlides fade">
+              <img src="img/3.jpg" style="width:100%">
+              <div class="text">Nội dung caption của slide thứ 3!</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/4.jpg" style="width:100%">
+                <div class="text">Nội dung caption của slide thứ 4!</div>
+              </div>
+
+              <div class="mySlides fade">
+                <img src="img/5.jpg" style="width:100%">
+                <div class="text">Nội dung caption của slide thứ 5!</div>
+              </div>
+          </div>
+          <br>
+           
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(0)"></span> 
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+          </div>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/common1.js"></script>
+    </body>
+</html>

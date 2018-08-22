@@ -1,0 +1,16 @@
+$('#yes').mouseover(function(){
+	if($('#yes').val()=='yes'){
+		$('#yes').val('no');
+		$('#no').val('yes');
+	}
+});
+$('#yes').mouseover(function(){
+	if($('#yes')=='no'){
+		$('#yes').val('yes');
+		$('#no').val('no');
+	}
+});
+$('#yes').click(function(){
+	$('#answer').hide();
+	$('.question').show();
+})
